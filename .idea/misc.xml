@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/activity_manipular_produtos.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/fragment_cadastro_de_produtos.xml" value="0.264" />
         <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/fragment_produto.xml" value="0.30932971014492755" />
+        <entry key="..\:/Users/christal.camillo/Desktop/DesafioAndroidCore/app/src/main/res/layout/fragment_produtos.xml" value="0.19293478260869565" />
       </map>
     </option>
   </component>

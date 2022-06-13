@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".manipularProdutos.fragments.botoesFragment.cadastro.CadastroDeProdutosFragment">
+
+    <TextView
+        android:id="@+id/tvCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cadastro de Produtos"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Nome do produto"
+        android:inputType="text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/etQuantidadeProduto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCadastro" />
+
+    <EditText
+        android:id="@+id/etQuantidadeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:hint="Quantidade de Produto"
+        android:inputType="number"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCadastro" />
+
+    <EditText
+        android:id="@+id/etValorUnitario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor(unitário) do produto"
+        android:inputType="number"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etQuantidadeProduto" />
+
+    <EditText
+        android:id="@+id/etReceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:hint="Receita"
+        android:inputType="text"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etValorUnitario" />
+
+    <Button
+        android:id="@+id/btCadastrarNovoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:backgroundTint="@color/botao_produtos"
+        android:text="CADASTRAR NOVO PRODUTO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCadastro" />
+
+    <Button
+        android:id="@+id/btVerProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:backgroundTint="@color/botao_ver"
+        android:text="VER PRODUTOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btCadastrarNovoProduto" />
+
+    <Button
+        android:id="@+id/btValorTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="289dp"
+        android:backgroundTint="@color/botao_valor_total"
+        android:text="VALOR TOTAL"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btVerProdutos" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

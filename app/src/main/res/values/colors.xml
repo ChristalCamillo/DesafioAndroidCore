@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="botao_produtos">#D32F2F</color>
+    <color name="botao_ver">#4CAF50</color>
+    <color name="botao_valor_total">#002984</color>
 </resources>
