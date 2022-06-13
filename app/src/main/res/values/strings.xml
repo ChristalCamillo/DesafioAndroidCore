@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DesafioAndroidCore</string>
+    <string name="splash_title">SimCity São João</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_text">Festas juninas, é algo muito bom! E em SimCity não é diferente! Aqui nesse app você consegue organizar a sua lista de compras para a sua festa junina de maneira fácil e simples, só cadastrar os produtos da sua receita e se divertir!</string>
+</resources>
